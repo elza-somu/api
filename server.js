@@ -34,7 +34,7 @@ app.get('/api/rappers/:rapperName',(request, response)=>{
 
   } else{
     response.json(rappers['unknown'])
-  }
+  };
 });
 
 app.listen(PORT, ()=>{
